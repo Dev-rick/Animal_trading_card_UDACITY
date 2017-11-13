@@ -4,13 +4,18 @@
 		<meta charset="utf-8">
 		<title>Animal Trading Cards</title>
 		<link type="text/css" rel="stylesheet" href="/assets/styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
 	</head>
 	<body>
 		<div class="card_layout">
 			<!-- your favorite animal's name goes here -->
 			<h3 class="headline">Clownfish</h3>
 			<!-- your favorite animal's image goes here -->
-			<img class="image_card" src="/imgs/Clown_fish.webp" alt="Clown_fish">
+			<picture>
+			  <source srcset="/imgs/Clown_fish.webp" type="image/webp">
+			  <source srcset="/imgs/Clown_fish.jpg" type="image/jpeg">
+			  <img class="image_card" src="/imgs/Clown_fish.jpg" alt="Clown_fish">
+			</picture>
 			<div class="inner_div">
 				<!-- your favorite animal's interesting fact goes here -->
 				<p class="description">Clownfish or anemonefish are fishes from the
